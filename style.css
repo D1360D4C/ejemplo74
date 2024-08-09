@@ -4,8 +4,25 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: antiquewhite;
+    background: linear-gradient(90deg,
+    #16c42d,
+    #5befe3,
+    #f3f39f,
+    #7aeef1);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease-in-out infinite;
 }
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 form{
     display: flex;
     flex-direction: column;
