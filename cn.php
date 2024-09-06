@@ -1,3 +1,3 @@
 <?php 
-$conexdb = mysqli_connect('localhost','root','','admindb');
+$conexdb = mysqli_connect('localhost','root','','dbu');
 ?>

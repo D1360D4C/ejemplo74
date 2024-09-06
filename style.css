@@ -44,3 +44,11 @@ button{
     border-radius: 5px;
 
 }
+.oculto{
+  display: none;
+}
+
+.formularios{
+  display: flex;
+  gap: 20px;
+}
